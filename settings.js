@@ -2,32 +2,32 @@
 //YouTube: @HANSTZ-TECH
 //Whatsapp https://wa.me/255614195217
 //GitHub: @Mrhanstz
-//WhatsApp: https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
-//want more free bot scripts? follow my channel : https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
+//WhatsApp: https://whatsapp.com/channel/0029Vb5FRYcDzgT39Qiu5S3h
+//want more free bot scripts? follow my channel : https://whatsapp.com/channel/0029Vb5FRYcDzgT39Qiu5S3h
 const fs = require('fs')
 const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
+global.SESSION_ID = process.env.SESSION_ID || "HansTz&OhxwBDbT#wpCA5QmA4gcfdlcUiYQ4BEjBSNmN13zwm_C7N-QBldU" //fallback to default if not in .env
 global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
 
 global.ownername = process.env.OWNER_NAME || "HansTech"
 
-global.ytname = "HANSTZ-TECH"
+global.ytname = "TECH"
 
 global.socialm = "GitHub: Mrhanstz"
 
 global.location = "AFRICA, TANZANIA, DODOMA"
 
-global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
+global.ownernumber = process.env.OWNER_NUMBER || '923067109628'  //Owner number
 
-global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
+global.ownername = process.env.OWNER_NAME || 'TECH-ALI //owner name
 global.botname = 'HANS-XMD' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = 'HANS-XMD'
+global.author = 'TECH-XMD'
 
 //console view/theme
 global.themeemoji = '⚠️'
@@ -43,13 +43,13 @@ global.prefa = ['','!','.','#','/']
 //bot settings
 global.autolikestatus = true //For auto react Status Random
 global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
-global.autorecordtype = true //auto typing + recording
+global.autoTyping = true //auto typing
+global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
-global.autobio = true //auto update bio
+global.autobio = false //auto update bio
 global.anti91 = false //auto block +91 
 global.autoswview = true //auto view status/story
-global.autoreact = false // This is For Auto React 
+global.autoreact = true // This is For Auto React 
 global.welcome = false // For Welcome massage groups
 
 
